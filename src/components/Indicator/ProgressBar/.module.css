@@ -1,0 +1,14 @@
+.progressBarPane {
+  min-height: 0.5vh;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.progressBarPane .bar {
+  height: 100%;
+  position: absolute;
+  background-color: #191817;
+}

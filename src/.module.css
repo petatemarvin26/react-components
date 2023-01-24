@@ -1,0 +1,32 @@
+.app {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 5vh;
+}
+
+.app .drag-file {
+  width: 50%;
+  height: 30%;
+  border: dashed 2px rgba(0, 0, 0, 0.4);
+  align-items: center;
+  justify-content: center;
+}
+
+.drag-file .text {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.app .image {
+  width: 15vh;
+  height: 15vh;
+  object-fit: contain;
+}
+
+.app .btn-download {
+  flex-direction: row;
+  font-size: 1.75vh;
+  gap: 1vh;
+  padding: 1vh 2vh;
+  border: solid 0.25vh black;
+}

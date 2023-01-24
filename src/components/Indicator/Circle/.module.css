@@ -1,0 +1,13 @@
+.animating {
+  animation: linear 0.75s infinite;
+  animation-name: rotate-animation;
+}
+
+.circleSnail {
+  transform: rotate(-90deg);
+}
+
+.red {
+  animation: ease-in-out 1.5s infinite alternate;
+  animation-name: dash-offset;
+}

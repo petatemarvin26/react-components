@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "ES6",
+    "module": "CommonJS",
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "strict": true
+  },
+  "include": ["./src/**/*", "./global.d.ts", "./module.d.ts", "./.eslintrc.js"],
+  "exclude": ["./node_modules"]
+}

@@ -1,0 +1,18 @@
+.textarea {
+  margin: 0;
+  padding: 2vh;
+  border: none;
+  font-family: var(--REGULAR-FONT);
+  font-size: var(--FONT-SIZE-MEDIUM);
+  background-color: transparent;
+  resize: none;
+}
+
+.textarea:focus {
+  outline: none;
+}
+
+.textarea::placeholder {
+  opacity: 0.5;
+  color: var(--BLACK);
+}
